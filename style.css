@@ -1,0 +1,19 @@
+body {
+    background-color: #41e034;
+    
+    margin: 0;	
+	padding: 0;
+    overflow-x: hidden;
+}
+
+.page{
+    max-width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 25px 25px 10px;
+    background-color: #f2f4f5;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
