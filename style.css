@@ -1,9 +1,10 @@
 body {
     background-color: #41e034;
-    
     margin: 0;	
 	padding: 0;
     overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    color: #191919;
 }
 
 .page{
@@ -16,4 +17,36 @@ body {
     -moz-transition: all 0.7s ease;
     -ms-transition: all 0.7s ease;
     transition: all 0.7s ease;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h5 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social-list {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.social-list a{
+    color: #191919;
+    text-decoration: underline;
+}
+
+.lowest{
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: block;
 }
