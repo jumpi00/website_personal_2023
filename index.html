@@ -11,16 +11,16 @@
     <!--Font Connection-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="page">
         
-        <header>
-            <a class="Header__logo hHFOAg" aria-label="Logo" href="/">LOGO Giampaolo zirone</a>
+        <header id="nav_fixed">
+            <a class="header_logo" aria-label="Logo" href="/">LOGO Giampaolo Zirone</a>
             <nav>
-                <ul>
+                <ul class="header_text">
                     <li><a href="/"></a>Works</li>
                     <li><a href="/"></a>About</li>
                     <li><a href="/"></a>Contact</li>
@@ -29,16 +29,13 @@
         </header>
 
         <main>
-           <div>
-            <section>
-                <p>Hello and welcome 👋 !</p>
-                <p>I am Giampaolo a graphic and information designer.</p>
-                <p>I am a curious image maker and storyteller who can help you transform your idea into reality.</p>
-            </section>
+           <div style="margin-top: 300px;">
+
             <h3>Hello and welcome 👋 ! <br>
-                I am Giampaolo a graphic and information designer. <br>
+                I am Giampaolo a <span id="h3_italic">graphic</span> and <span id="h3_italic">information designer</span>. <br>
                 I am a curious image maker and storyteller who can help you transform your idea into reality.
             </h3>
+
             <h6>What can I do for you?</h6>
            </div>
             
@@ -50,24 +47,26 @@
                   </div>
             </section>
 
-            <div>
+            <div class="box_contact">
                 <div>
+                    
                     <div>
-                        <h3> Get in Touch</h3>
-                        <span><a href="mailto:hello@giampaolozirone.com">hello@giampaolo<br>zirone.com</a></span>
-                        <div>
-                            <!--Qua rivedi e sistema un po' magari aggiungi anche un easter egg nel codice del sito
-                            Vanno sicuramente sistemati i pulsanti bene-->
-                            <span>Say hi</span>
-                            <span>Collaborations</span>
-                        </div>
+                        <h4> Get in Touch</h4>
                     </div>
+                        
+                    <span class="box_contact_mail"><a href="mailto:hello@giampaolozirone.com">hello@giampaolo<br>zirone.com</a></span>
+                        
+                    <div class="box_contact_buttons">
+                        <!--Qua rivedi e sistema un po' magari aggiungi anche un easter egg nel codice del sito
+                        Vanno sicuramente sistemati i pulsanti bene-->
+                        <span>Say hi</span>
+                        <span>Collaborations</span>
+                    </div>
+
                 </div>
             </div>
         </main>
 
-
-<H1>PROVA👋</H1>
         <footer>
             <section>
                 <h5 class="text-center">Follow me on</h5>
@@ -81,17 +80,18 @@
                 </div>
 
                 <div class="lowest">                
-                    <!-- inserire l'orario che si aggiorna automaticamente -->
-                    <span class="lowest_time">
-                        METTERE L'ORARIO - POSIZIONE DOVE STO
-                    </span>
-
+            
                     <span class="lowest_text">
                         ©
                         <!-- da controllare la classe in questa sezione -->
                         <span>2023</span> 
                         — Giampaolo Zirone. All rights reserved. Do not use without permission. &nbsp;
                         <!-- <a href="/privacy">Privacy Policy</a></span>-->
+                    </span>
+
+                    <!-- inserire l'orario che si aggiorna automaticamente -->
+                    <span class="lowest_time">
+                        METTERE L'ORARIO - POSIZIONE DOVE STO
                     </span>
 
                 </div>
