@@ -50,17 +50,34 @@
             <div class="box_contact">
                 <div>
                     
-                    <div>
+                    <div class="contact-bottom">
                         <h4 class="pill_button"> Get in Touch</h4>
                     </div>
                         
                     <span class="box_contact_mail"><a href="mailto:hello@giampaolozirone.com">hello@giampaolo<br>zirone.com</a></span>
                         
-                    <div class="box_contact_buttons">
+                    <div class="box_contact_buttons contact-top">
                         <!--Qua rivedi e sistema un po' magari aggiungi anche un easter egg nel codice del sito
                         Vanno sicuramente sistemati i pulsanti bene-->
-                        <span class="pill_button">Say hi</span>
-                        <span class="pill_button">Collaborations</span>
+                        <a class="pill_button button_arrow" href="mailto:hello@giampaolozirone.com?subject=Hello www">
+                            <span class="hello_container">Say hi
+                                <div class="arrow_container">
+                                    <svg viewBox="0 0 22 17">
+                                        <path d="M21.707,7.707 L14,0 L12.586,1.414 L18.586,7.414 L1,7.414 C0.447,7.414 0,7.862 0,8.414 C0,8.966 0.447,9.414 1,9.414 L18.586,9.414 L12.586,15.414 L14,16.828 L21.707,9.121 C22.098,8.73 22.098,8.098 21.707,7.707 Z"></path>
+                                    </svg>
+                                </div>
+                            </span>
+                        </a>
+                        
+                        <a class="pill_button button_arrow" href="mailto:hello@giampaolozirone.com?subject=Collaboration www">
+                            <span class="hello_container">Collaborations
+                                <div class="arrow_container">
+                                    <svg viewBox="0 0 22 17">
+                                        <path d="M21.707,7.707 L14,0 L12.586,1.414 L18.586,7.414 L1,7.414 C0.447,7.414 0,7.862 0,8.414 C0,8.966 0.447,9.414 1,9.414 L18.586,9.414 L12.586,15.414 L14,16.828 L21.707,9.121 C22.098,8.73 22.098,8.098 21.707,7.707 Z"></path>
+                                    </svg>
+                                </div>
+                            </span>
+                        </a>
                     </div>
 
                 </div>
@@ -90,9 +107,38 @@
                     </span>
 
                     <!-- inserire l'orario che si aggiorna automaticamente -->
-                    <span class="lowest_time">
-                        METTERE L'ORARIO - POSIZIONE DOVE STO
-                    </span>
+                    
+                    <div class="lowest_time">
+                        <div id = "clock" onload="currentTime()">
+                            <script>
+                                function currentTime() {
+                                let date = new Date(); 
+                                let hh = date.getHours();
+                                let mm = date.getMinutes();
+                                let ss = date.getSeconds();
+                                //let session = "AM";
+
+                                    
+                                if(hh > 12){
+                                    session = "PM";
+                                }
+
+                                hh = (hh < 10) ? "0" + hh : hh;
+                                mm = (mm < 10) ? "0" + mm : mm;
+                                ss = (ss < 10) ? "0" + ss : ss;
+                                    
+                                let time = hh + ":" + mm + ":" + ss + " " /*+ session*/;
+
+                                document.getElementById("clock").innerText = time; 
+                                let t = setTimeout(function(){ currentTime() }, 1000); 
+
+                                }
+
+                                currentTime();
+                            </script>
+                        </div>
+                        <span>&nbsp;CET - Italy</span>
+                    </div>
 
                 </div>
 
