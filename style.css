@@ -40,15 +40,19 @@ h5 {
     font-weight: 400;
     display: flex;
     margin: 0;
-    column-gap: 3rem;
+    column-gap: 2rem;
     padding: 20px 20px;
+}
+
+.header_text li {
+    padding: 7px 12px;
 }
 
 .header_logo {
     font-size: 1rem;
     float: left;
     
-    padding: 20px 24px;
+    padding: 26px 24px;
     border-radius: 40px;
     background-color: rgba(242,244,245,.5);
     border: 2px solid transparent;
@@ -231,5 +235,49 @@ h4 {
 .lowest_time {
     display: flex;
     justify-content: space-between;
-
+    color: red;
 }
+
+
+.header_text li a {
+    color: #191919;
+    transition: 0.5s ease-in-out;
+}
+
+/*Hover elements*/
+
+.sopra_nav:hover {
+    background-color: #e5e5e5;
+    border-radius: 4vh;
+    transition: 0.5s ease-in-out;
+}
+
+.sopra_nav a:hover {
+    color: #41e034;
+    transition: 0.5s ease-in-out;
+}
+
+/*.pill_button:hover{
+    text-decoration: underline;
+    color: #191919;
+    transform: scale(1.05);
+    transition: transform .5s cubic-bezier(.4,0,.2,1);
+}*/
+
+.hello_container:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: red;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .hello_container:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
