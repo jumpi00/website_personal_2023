@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="prova">prova prova prova prova prova prova prova prova prova prova</div>
+    <style>
+        .prova {
+            animation: scroll-left 20s linear infinite;
+            color: red;
+            font-size: 20rem;
+            width: 128%;
+    white-space: nowrap;
+        }
+
+        @keyframes scroll-left {
+            0%{
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    
+    </style>
+</body>
+</html>
