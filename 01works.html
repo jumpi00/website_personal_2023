@@ -7,13 +7,14 @@
 </head>
 <body>
     <div class="prova">prova prova prova prova prova prova prova prova prova prova</div>
+    <div class="prova2">prova prova prova prova prova prova prova prova prova prova</div>
     <style>
         .prova {
             animation: scroll-left 20s linear infinite;
             color: red;
             font-size: 20rem;
             width: 128%;
-    white-space: nowrap;
+            white-space: nowrap;
         }
 
         @keyframes scroll-left {
@@ -25,6 +26,26 @@
                 transform: translateX(-100%);
             }
         }
+
+        .prova2 {
+            animation: scroll-right 20s linear infinite;
+            color: blue;
+            font-size: 20rem;
+            width: 128%;
+            white-space: nowrap;
+        }
+
+        @keyframes scroll-right {
+            0%{
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+
     
     </style>
 </body>
