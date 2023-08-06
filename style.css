@@ -1,10 +1,18 @@
+:root {
+    --mine: #41e034;
+    --back: #f2f4f5;
+    --text: #191919;
+    --white: #ffffff;
+    --greyLight: #cdcdcd;
+  }
+
 body {
-    background-color: #41e034;
+    background-color: var(--mine);
     margin: 0;	
 	padding: 0;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
-    color: #191919;
+    color: var(--text);
 }
 
 .page{
@@ -12,7 +20,7 @@ body {
     min-height: 100vh;
     margin: auto;
     padding: 25px 25px 10px;
-    background-color: #f2f4f5;
+    background-color: var(--back);
     -webkit-transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     -ms-transition: all 0.7s ease;
@@ -56,7 +64,7 @@ h5 {
     border-radius: 40px;
     background-color: rgba(242,244,245,.5);
     border: 2px solid transparent;
-    box-shadow: 0px 0px 18px #cdcdcd;
+    box-shadow: 0px 0px 18px var(--greyLight);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     overflow: hidden;
@@ -71,7 +79,7 @@ nav {
     border-radius: 40px;
     background-color: rgba(242,244,245,.5);
     border: 2px solid transparent;
-    box-shadow: 0px 0px 18px #cdcdcd;
+    box-shadow: 0px 0px 18px var(--greyLight);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     overflow: hidden;
@@ -91,7 +99,7 @@ nav {
 }
 
 .social-list a{
-    color: #191919;
+    color: var(--text);
     text-decoration: underline;
 }
 
@@ -134,6 +142,34 @@ main div h6 {
     font-size: 5rem; 
 }
 
+.about__what-line-1{
+    animation: scroll-left 25s linear infinite;
+}
+
+@keyframes scroll-left {
+    0%{
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.about__what-line-2{
+    animation: scroll-right 25s linear infinite;
+}
+
+@keyframes scroll-right {
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .about_section {
     padding-top: 2.8rem;
     padding-right: 0;
@@ -160,9 +196,9 @@ h4 {
 
 .pill_button {
     border: 1px solid transparent;
-    box-shadow: 2px 2px 4px #cdcdcd, -2px -2px 4px #ffffff;
+    box-shadow: 3px 3px 5px var(--greyLight), -3px -3px 5px var(--white);
     border-radius: 40px;
-    display: inline-block;
+    display: inline-block; 
 }
 
 .box_contact {
@@ -174,7 +210,7 @@ h4 {
 
     background-color: rgba(242,244,245,.5);
     border: 2px solid transparent;
-    box-shadow: 0px 0px 18px #cdcdcd;
+    box-shadow: 0px 0px 18px var(--greyLight);
     overflow: hidden;
 }
 
@@ -183,7 +219,7 @@ h4 {
     font-weight: 300;
     font-size: 4.5rem;
     line-height: 5rem;
-    color: #191919;
+    color: var(--text);
     text-decoration: underline;
     text-decoration-thickness: 0.3rem;
 }
@@ -217,7 +253,7 @@ h4 {
 .hello_container {
     display: flex;
     align-items: center;
-    color: #191919;
+    color: var(--text);
 }
 
 .button_arrow {
@@ -240,20 +276,25 @@ h4 {
 
 
 .header_text li a {
-    color: #191919;
+    color: var(--text);
     transition: 0.5s ease-in-out;
+}
+
+.pill_hover{
+    transition: all 0.4s ease;
 }
 
 /*Hover elements*/
 
-.sopra_nav:hover {
+/*.sopra_nav:hover {
     background-color: #e5e5e5;
     border-radius: 4vh;
     transition: 0.5s ease-in-out;
-}
+}*/
 
 .sopra_nav a:hover {
     color: #41e034;
+    font-weight: 500;
     transition: 0.5s ease-in-out;
 }
 
@@ -262,7 +303,7 @@ h4 {
     color: #191919;
     transform: scale(1.05);
     transition: transform .5s cubic-bezier(.4,0,.2,1);
-}*/
+}
 
 .hello_container:after {    
     background: none repeat scroll 0 0 transparent;
@@ -276,8 +317,31 @@ h4 {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
+
   .hello_container:hover:after { 
     width: 100%; 
     left: 0; 
+  }*/
+
+  /*
+  {
+    box-shadow: inset 0.2rem 0.2rem 0.5rem #cdcdcd, inset -0.2rem -0.2rem 0.5rem #ffffff;
+  }*/
+
+  .pill_hover:hover
+  {
+    box-shadow: inset 3px 3px 5px var(--greyLight), inset -3px -3px 5px var(--white);
+    transition: all 0.4s ease;
   }
 
+  .sopra_nav:hover
+  {
+    border-radius: 4vh;
+    box-shadow: inset 3px 3px 5px var(--greyLight), inset -3px -3px 5px var(--white);
+    transition: all 0.4s ease;
+  }
+
+  .hello_container:hover{
+    text-decoration: underline;
+    transition: all 0.4s ease;
+  }
