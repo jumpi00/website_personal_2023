@@ -4,49 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!--additional style fot the page-->
+    <link rel="stylesheet" href="style-pg01.css">
+    
+    <!--Font Connection-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="prova">prova prova prova prova prova prova prova prova prova prova</div>
-    <div class="prova2">prova prova prova prova prova prova prova prova prova prova</div>
-    <style>
-        .prova {
-            animation: scroll-left 20s linear infinite;
-            color: red;
-            font-size: 20rem;
-            width: 128%;
-            white-space: nowrap;
-        }
 
-        @keyframes scroll-left {
-            0%{
-                transform: translateX(0);
-            }
+    <header id="nav_fixed">
+        <a class="header_logo" aria-label="Logo" href="/">LOGO Giampaolo Zirone</a>
+        <nav>
+            <ul class="header_text">
+                <li class="sopra_nav"><a href="01works.html">Works</a></li>
+                <li class="sopra_nav"><a href="02about.html">About</a></li>
+                <li class="sopra_nav"><a href="03contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            100% {
-                transform: translateX(-100%);
-            }
-        }
+    <main>
 
-        .prova2 {
-            animation: scroll-right 20s linear infinite;
-            color: blue;
-            font-size: 20rem;
-            width: 128%;
-            white-space: nowrap;
-        }
+        <div class="back_fullAlt">
+            <h1 class="back_fullAlt_h1">works</h1>
+        </div>
 
-        @keyframes scroll-right {
-            0%{
-                transform: translateX(-100%);
-            }
+        <div class="over_fullAlt">
+            <span>
+            <h5 class="text-center">Cooming Soon</h5>
+            <p class="wcst01">⚙️ This section is under <span id="wcst01_italic">renovation</span>. ⚙️ <br> Visit again soon to see it!</p>
+            <p class="wcst02">Meanwhile, you could have a look at my portfolio on <a class="wcst02_a" href="https://www.behance.net/giampaolozirone" target="_blank" alt="Behance Portfolio"><span id="wcst02_italic">Behance</span></a>.</p>
+            </span>
+        </div>
 
-            100% {
-                transform: translateX(0);
-            }
-        }
+    </main>
 
-
-    
-    </style>
 </body>
 </html>

@@ -1,0 +1,87 @@
+:root {
+    --mine: #41e034;
+    --back: #f2f4f5;
+    --text: #191919;
+    --white: #ffffff;
+    --greyLight: #cdcdcd;
+}
+
+html, body, main {    
+    height: 100%;
+    margin: 0;
+}
+
+.back_fullAlt { 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--back);
+}
+
+.back_fullAlt_h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10rem;
+    margin: 0;
+}
+
+.over_fullAlt {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    background-color: rgba(242,244,245,.5);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+}
+
+.wcst02_a {
+    color: var(--text);
+}
+
+.wcst01 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+#wcst01_italic {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.wcst02 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#wcst02_italic {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#nav_fixed {
+    padding: 2.4rem 2.4rem;
+}
+
+/*Hover elements*/
+
+.wcst02 > a:hover {
+    color: #41e034;
+    text-decoration-color: var(--mine);
+    transition: all 0.4s ease;
+}
