@@ -46,8 +46,14 @@ html, body, main {
     overflow: hidden;
 }
 
+.wcst02 >a {
+    text-decoration: none;
+}
+
 .wcst02_a {
     color: var(--text);
+    /*text-decoration: underline;*/
+    transition: all 0.4s ease;
 }
 
 .wcst01 {
@@ -60,6 +66,7 @@ html, body, main {
     font-family: 'Lora', serif;
     font-style: italic;
     font-weight: 400;
+    transition: all 0.4s ease;
 }
 
 .wcst02 {
@@ -78,10 +85,29 @@ html, body, main {
     padding: 2.4rem 2.4rem;
 }
 
+.altro{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    vertical-align: sub;
+    align-items: bottom;
+    justify-content: center;
+    display: flex;
+}
+
+.wcstl01 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 /*Hover elements*/
 
-.wcst02 > a:hover {
-    color: #41e034;
+.wcst02 > a:hover, #wcst02_italic:hover {
+    
     text-decoration-color: var(--mine);
     transition: all 0.4s ease;
 }

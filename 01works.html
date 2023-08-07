@@ -43,6 +43,53 @@
         </div>
 
     </main>
+    <footer>
+        <div class="lowest wcstl01">                
+            
+            <span class="lowest_text">
+                ©
+                <!-- da controllare la classe in questa sezione -->
+                <span>2023</span> 
+                — Giampaolo Zirone. All rights reserved. Do not use without permission. &nbsp;
+                <!-- <a href="/privacy">Privacy Policy</a></span>-->
+            </span>
+
+            <!-- inserire l'orario che si aggiorna automaticamente -->
+            
+            <div class="lowest_time">
+                <div id = "clock" onload="currentTime()">
+                    <script>
+                        function currentTime() {
+                        let date = new Date(); 
+                        let hh = date.getHours();
+                        let mm = date.getMinutes();
+                        let ss = date.getSeconds();
+                        //let session = "AM";
+
+                            
+                        if(hh > 12){
+                            session = "PM";
+                        }
+
+                        hh = (hh < 10) ? "0" + hh : hh;
+                        mm = (mm < 10) ? "0" + mm : mm;
+                        ss = (ss < 10) ? "0" + ss : ss;
+                            
+                        let time = hh + ":" + mm + ":" + ss + " " /*+ session*/;
+
+                        document.getElementById("clock").innerText = time; 
+                        let t = setTimeout(function(){ currentTime() }, 1000); 
+
+                        }
+
+                        currentTime();
+                    </script>
+                </div>
+                <span>&nbsp;CET - Italy</span>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
