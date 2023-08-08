@@ -203,6 +203,14 @@ h4 {
     display: inline-block; 
 }
 
+.pllbttac01{
+    border: 1px solid transparent;
+    box-shadow: 3px 3px 5px var(--greyLight), -3px -3px 5px var(--white);
+    border-radius: 40px;
+    display: inline-block; 
+    pointer-events: none;
+}
+
 .box_contact {
     text-align: center;
     padding: 2.2rem 2.8rem;

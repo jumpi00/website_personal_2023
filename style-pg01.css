@@ -104,6 +104,14 @@ html, body, main {
     width: 100%;
 }
 
+.star1{
+    padding-right: 3rem;
+}
+
+.star2{
+    padding-left: 3rem;
+}
+
 /*Hover elements*/
 
 .wcst02 > a:hover, #wcst02_italic:hover {
