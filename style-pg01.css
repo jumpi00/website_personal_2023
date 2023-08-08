@@ -98,7 +98,7 @@ html, body, main {
     display: flex;
 }
 
-.wcstl01 {
+.wcstl01, footer {
     position: fixed;
     bottom: 0;
     width: 100%;
