@@ -113,10 +113,30 @@ html, body, main {
     padding-left: 3rem;
 }
 
+/*altro*/
+
+.cnct-mn-01 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--back);
+}
+
+.cnct-mn-spn-01 {
+    margin-bottom: 8%;
+}
+
 /*Hover elements*/
 
 .wcst02 > a:hover, #wcst02_italic:hover {
     
+    text-decoration-color: var(--mine);
+    transition: all 0.4s ease;
+}
+
+.cnct-mail-01 > a:hover{
     text-decoration-color: var(--mine);
     transition: all 0.4s ease;
 }

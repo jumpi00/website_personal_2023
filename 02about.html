@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style-pg02.css">
+
+    <!--Font Connection-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:ital,wght@1,400;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page">
+
+        <header id="nav_fixed">
+            <a class="header_logo" aria-label="Logo" href="/">LOGO Giampaolo Zirone</a>
+            <nav>
+                <ul class="header_text">
+                    <li class="sopra_nav"><a href="01works.html">Works</a></li>
+                    <li class="sopra_nav pllbttac01"><a href="02about.html">About</a></li>
+                    <li class="sopra_nav"><a href="03contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="introduction">
+                <p class="abt_mn_p-01">I am Giampaolo Zirone, a <span id="abt_mn_p-01_italic">graphic</span>, <span
+                        id="abt_mn_p-01_italic">visual</span> and <span id="abt_mn_p-01_italic">information
+                        designer</span>. Since I graduated from the Art
+                    Academy I have been keeping studying and researching images as a medium and the power of data.</p>
+                <p class="abt_mn_p-01_pt">I have been working for more than 3+ years in the communication field.</p>
+                <p class="abt_mn_p-01_pt">My aim is to design in order to develop meaningful and thoughtful communication projects to empower
+                    the audience’s view through a strong narrative. My design is driven by my <span
+                        id="abt_mn_p-01_italic">bright curiosity</span> and my
+                    <span id="abt_mn_p-01_italic">passion</span> to make concepts tangible and impactful.
+                </p>
+            </div>
+            <div class="git_stc_01">
+                <p class="git_stc_01_p1">I welcome opportunities to explore new perspectives, idea sharing, projects, and collaborations.</p>
+                <p class="git_stc_01_p2">If you would like to share anything with me or if you would like to have a chat, do not hesitate to contact me 📩.</p>
+                <span>Get in touch</span>
+            </div>
+            <div>box</div>
+            <div>resume</div>
+        </main>
+
+        <footer>
+            <section>
+                <h5 class="text-center">Follow me on</h5>
+
+                <div class="social-list text-center">
+                    <a class="social_behance" href="https://www.behance.net/giampaolozirone" target="_blank">Behance</a>
+                    |
+                    <a class="social_instagram" href="https://www.instagram.com/gia.zir/" target="_blank">Instagram</a>
+                    |
+                    <a class="social_linkedin" href="https://www.linkedin.com/in/gzirone/" target="_blank">LinkedIn</a>
+                </div>
+
+                <div class="lowest">
+
+                    <div class="lowest_time">
+                        <div id="clock" onload="currentTime()">
+                            <script>
+                                function currentTime() {
+                                    let date = new Date();
+                                    let hh = date.getHours();
+                                    let mm = date.getMinutes();
+                                    let ss = date.getSeconds();
+                                    //let session = "AM";
+
+
+                                    if (hh > 12) {
+                                        session = "PM";
+                                    }
+
+                                    hh = (hh < 10) ? "0" + hh : hh;
+                                    mm = (mm < 10) ? "0" + mm : mm;
+                                    ss = (ss < 10) ? "0" + ss : ss;
+
+                                    let time = hh + ":" + mm + ":" + ss + " " /*+ session*/;
+
+                                    document.getElementById("clock").innerText = time;
+                                    let t = setTimeout(function () { currentTime() }, 1000);
+
+                                }
+
+                                currentTime();
+                            </script>
+                        </div>
+                        &nbsp;CET - Italy
+                    </div>
+
+                    <span class="lowest_text">
+                        ©
+                        <!-- da controllare la classe in questa sezione -->
+                        <span>2023</span>
+                        — Giampaolo Zirone. All rights reserved. Do not use without permission. &nbsp;
+                        <!-- <a href="/privacy">Privacy Policy</a></span>-->
+                    </span>
+
+                    <!-- inserire l'orario che si aggiorna automaticamente -->
+
+                </div>
+
+            </section>
+        </footer>
+    </div>
+
+    <div id="fade_bottom"></div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+:root {
+    --mine: #41e034;
+    --back: #f2f4f5;
+    --text: #191919;
+    --white: #ffffff;
+    --greyLight: #cdcdcd;
+  }
+
+html, main {
+    color: var(--text);
+}
+
+.introduction > p{
+    font-size: 3.3rem;
+    font-weight: 400;
+    line-height: 3.8rem;
+    margin: 0;
+    padding-right: 3.5rem;
+}
+
+#abt_mn_p-01_italic{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.abt_mn_p-01_pt{
+    padding-top: 1.8rem;
+}
+
+.git_stc_01{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding-right: 4rem;  
+    margin-left: 50%;
+}
+
+.git_stc_01 > p{
+    margin: 0; 
+}
+
+.git_stc_01_p2{
+    padding-top: 0.8rem;
+}
