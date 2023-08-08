@@ -110,6 +110,7 @@ nav {
     font-weight: 400;
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     padding-top: 3.25rem;
         
 }
@@ -282,6 +283,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     color: red;
+    margin-left: auto;
 }
 
 
