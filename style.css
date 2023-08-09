@@ -215,7 +215,7 @@ h4 {
     text-align: center;
     padding: 2.2rem 2.8rem;
     border-radius: 4vh;
-    margin: 10% auto;
+    margin: 18% auto;
     width: 60%;
 
     background-color: rgba(242,244,245,.5);
@@ -245,7 +245,7 @@ h4 {
 
 .introduction {
     padding: 1rem 2.8rem 3rem 2.8rem;
-    margin-top: 15%;
+    margin-top: 16%;
 }
 
 .arrow_container {
@@ -326,6 +326,14 @@ footer{
     rgba(242, 244, 245, 1) 100%
      );}
 
+.spc-btn-01{
+    margin-top: 5rem;
+}
+
+.spc-btn-02{
+    margin-top: 10rem;
+}
+
 /*Hover elements*/
 
 .pill_hover:hover{
@@ -350,6 +358,17 @@ footer{
     transition: all 0.4s ease;
 }
 
+.button_arrow:hover .arrow_container{
+    transform: scale(.95);
+    transition: all 0.4s ease;
+}
+
+.header_logo:hover
+{
+  border-radius: 4vh;
+  box-shadow: inset 3px 3px 5px var(--greyLight), inset -3px -3px 5px var(--white);
+  transition: all 0.4s ease;
+}
 
 
 

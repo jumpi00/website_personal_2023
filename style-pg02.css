@@ -69,7 +69,7 @@ html, main {
 .box_xpfcs {
     padding: 2.2rem 2.8rem;
     border-radius: 4vh;
-    margin: 10% auto;
+    margin: 14% auto;
     width: 80%;
 
     background-color: rgba(242,244,245,.5);
@@ -110,4 +110,12 @@ html, main {
 .xpfcs_tlt {
     min-width: 40%;
     padding-right: 4%;
+}
+
+.spc-btn-03{
+    margin-top: 5rem;
+}
+
+.spc-btm-04{
+    margin-bottom: 14%;
 }
