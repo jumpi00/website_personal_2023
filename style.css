@@ -216,7 +216,7 @@ h4 {
     padding: 2.2rem 2.8rem;
     border-radius: 4vh;
     margin: 18% auto;
-    width: 60%;
+    width: 70%;
 
     background-color: rgba(242,244,245,.5);
     border: 2px solid transparent;
@@ -244,7 +244,7 @@ h4 {
 }
 
 .introduction {
-    padding: 1rem 2.8rem 3rem 2.8rem;
+    padding: 2% 4% 5% 4%;
     margin-top: 16%;
 }
 
@@ -272,11 +272,11 @@ h4 {
 }
 
 .contact-bottom {
-    padding-bottom: 2.4rem;
+    padding-bottom: 5rem;
 }
 
 .contact-top {
-    padding-top: 2.4rem;
+    padding-top: 5rem;
 }
 
 .lowest_time {
