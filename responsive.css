@@ -1,0 +1,20 @@
+/*size 1200px*/
+@media all and (max-width: 1200px){
+
+    .box_contact_mail a {
+        font-size: 3.8rem;
+    }
+
+    .about__what {
+        font-size: 4.6rem;
+    }
+
+    .header_text, .header_logo {
+        font-size: 0.9rem;
+    }
+
+    main div h3 {
+        font-size: 1.8rem;
+    }
+
+}

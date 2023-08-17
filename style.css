@@ -141,7 +141,9 @@ main div h6 {
     font-family: 'Lora', serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 5rem; 
+    font-size: 5rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 .about__what-line-1{
