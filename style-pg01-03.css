@@ -81,10 +81,6 @@ html, body, main {
     text-decoration: underline;
 }
 
-#nav_fixed {
-    padding: 2.4rem 2.4rem;
-}
-
 .altro{
     position: absolute;
     height: 100%;

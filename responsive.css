@@ -38,6 +38,11 @@
         font-size: 3.2rem;
         text-decoration-thickness: 0.2rem;
     }
+
+   
+    .cnct-mail-01 a{
+        font-size: 3.6rem;
+    }
 }
 
 /*size 768px*/
@@ -73,6 +78,16 @@
 
     .contact-top {
         padding-top: 4rem;
+    }
+
+    
+    .wcst01{
+        font-size: 1.6rem;
+    }
+
+    
+    .cnct-mail-01 a{
+        font-size: 2.8rem;
     }
 }
 
@@ -132,6 +147,27 @@
     .box_contact {
         margin: 30% auto;
     }
+
+    
+    
+    .back_fullAlt_h1 {
+        font-size: 5rem;
+    }
+
+    .wcst01 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .wcst02 {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+
+    .cnct-mail-01 a{
+        font-size: 1.9rem;
+    }
 }
 
 /*size 425px*/
@@ -154,11 +190,35 @@
         margin: 35% auto;
         padding: 2.2rem 2.2rem;
     }
+
+    
+    
+    .wcst01 {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+
+    .cnct-mail-01 a{
+        font-size: 1.7rem;
+    }
 }
 
 /*size 375px*/
 @media all and (max-width: 375px){
+    .back_fullAlt_h1 {
+        font-size: 3rem;
+    }
 
+    .wcst01 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+
+    .cnct-mail-01 a{
+        font-size: 1.5rem;
+    }
 }
 
 /*size 320px*/
@@ -187,5 +247,23 @@
 
     .lowest {
         padding-top: 3.6rem;
+    }
+
+    
+    
+    .wcst01 {
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+    }
+
+    .wcst02 {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        font-size: 0.9rem;
+    }
+
+
+    .cnct-mail-01 a{
+        font-size: 1.3rem;
     }
 }
