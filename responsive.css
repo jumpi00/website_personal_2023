@@ -66,6 +66,14 @@
     .header_text {
         column-gap: 1.1rem;
     }
+
+    .contact-bottom {
+        padding-bottom: 4rem;
+    }
+
+    .contact-top {
+        padding-top: 4rem;
+    }
 }
 
 /*size 480px*/
@@ -105,12 +113,47 @@
         justify-content: center;
     }
 
+    .contact-bottom {
+        padding-bottom: 2rem;
+    }
 
+    .contact-top {
+        padding-top: 2rem;
+    }
+
+    .lowest_time {
+        margin-bottom: 20px;
+    }
+
+    .spc-btn-02 {
+        margin-top: 5rem;
+    }
+
+    .box_contact {
+        margin: 30% auto;
+    }
 }
 
 /*size 425px*/
 @media all and (max-width: 425px){
+    .box_contact_buttons {
+        display: inline-grid;
+        font-size: 1rem;
+    }
 
+    .hello_container {
+        justify-content: center;
+    }
+
+    .button_arrow_npdd {
+        padding: 0.1rem 0.6rem 0.1rem 0.8rem;
+        margin-bottom: 25px;
+    }
+
+    .box_contact {
+        margin: 35% auto;
+        padding: 2.2rem 2.2rem;
+    }
 }
 
 /*size 375px*/
@@ -120,5 +163,29 @@
 
 /*size 320px*/
 @media all and (max-width: 320px){
+    h4 {
+        font-size: 0.9rem;
+    }
 
+    .box_contact_mail a {
+        font-size: 1.0rem;
+        text-decoration-thickness: 0.1rem;
+    }
+
+    .box_contact {
+        margin: 35% auto;
+        padding: 2.2rem 1.6rem;
+    }
+
+    footer {
+        padding: 0rem 2.2rem 3rem 2.2rem;;
+    }
+
+    .social-list {
+        font-size: 1.0rem;
+    }
+
+    .lowest {
+        padding-top: 3.6rem;
+    }
 }
