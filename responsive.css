@@ -1,3 +1,12 @@
+/*size 1400px*/
+@media all and (max-width: 1400px){
+
+    .box_contact_mail a {
+        font-size: 4.1rem;
+    }
+
+}
+
 /*size 1200px*/
 @media all and (max-width: 1200px){
 
@@ -16,5 +25,100 @@
     main div h3 {
         font-size: 1.8rem;
     }
+
+}
+
+/*size 1024px*/
+@media all and (max-width: 1024px){
+    h4{
+        font-size: 1rem;
+    }
+
+    .box_contact_mail a {
+        font-size: 3.2rem;
+        text-decoration-thickness: 0.2rem;
+    }
+}
+
+/*size 768px*/
+@media all and (max-width: 768px){
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    h4 {
+        font: 0.9rem;
+    }
+
+    .box_contact_mail a {
+        font-size: 2.3rem;
+        text-decoration-thickness: 0.2rem;
+    }
+
+    .about__what {
+        font-size: 4.0rem;
+    }
+
+    .header_text, .header_logo {
+        font-size: 0.8rem;
+    }
+
+    .header_text {
+        column-gap: 1.1rem;
+    }
+}
+
+/*size 480px*/
+@media all and (max-width: 480px){
+    main div h3 {
+        font-size: 1.2rem;
+    }
+
+    main div h6 {
+        font-size: 0.9rem;
+    }
+
+    .about__what {
+        font-size: 1.5rem;
+    }
+
+    .box_contact_mail a {
+        font-size: 1.2rem;
+        text-decoration-thickness: 0.1rem;
+    }
+
+    .box_contact_buttons {
+        font-size: 0.8rem;
+    }
+
+    .social-list {
+        font-size: 1.2rem;
+    }
+
+    .lowest {
+        font-size: 0.7rem;
+        display: block;
+        text-align: center;
+    }
+
+    .lowest_time {
+        justify-content: center;
+    }
+
+
+}
+
+/*size 425px*/
+@media all and (max-width: 425px){
+
+}
+
+/*size 375px*/
+@media all and (max-width: 375px){
+
+}
+
+/*size 320px*/
+@media all and (max-width: 320px){
 
 }
