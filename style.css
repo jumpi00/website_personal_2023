@@ -259,7 +259,7 @@ h4 {
     margin-left: 5px;
     transform: scale(1.05);
 
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
 }
