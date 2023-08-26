@@ -271,6 +271,20 @@
     .cnct-mail-01 a{
         font-size: 1.7rem;
     }
+
+    
+    .introduction > p {
+        font-size: 1.5rem;
+        line-height: 1.9rem;
+    }
+
+    .spc-btn-03 {
+        margin-top: 4rem;
+    }
+
+    .git_stc_01, .res_stc_01 {
+        font-size: 1.1rem;
+    }
 }
 
 /*size 375px*/
@@ -287,6 +301,12 @@
 
     .cnct-mail-01 a{
         font-size: 1.5rem;
+    }
+
+
+    .introduction > p {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
     }
 }
 
@@ -335,4 +355,37 @@
     .cnct-mail-01 a{
         font-size: 1.3rem;
     }
+
+
+    .introduction > p {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+
+    .git_stc_01, .res_stc_01 {
+        font-size: 1.0rem;
+    }
+
+    .btt-abt-01 {
+        font-size: 0.9rem;
+    }
+
+    .box_xpfcs {
+        margin: 28% auto 14% auto;
+        display: block;
+        padding: 1.8rem 1.1rem;
+    }
+
+    .h4_intro, .xpfcs_pre-ul {
+        font-size: 1rem;
+    }
+
+    .xpfcs_li:before {
+        font-size: 1.0rem;
+    }
+
+    .ftr_abt_mt {
+        margin-top: 40%;
+    }
+
 }
