@@ -274,9 +274,10 @@
         justify-content: center;
     }
 
-    .button_arrow_npdd {
+    .button_arrow_npdd-425 {
         padding: 0.1rem 0.6rem 0.1rem 0.8rem;
-        margin-bottom: 25px;
+        margin: 0 auto 25px auto;
+        width: max-content;
     }
 
     .box_contact {
