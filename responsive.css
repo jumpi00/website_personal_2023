@@ -33,6 +33,10 @@
     .box_contact_mail a {
         font-size: 3.4rem;
     }
+
+    .res_stc_01 {
+    max-width: 42%;
+    }
 }
 
 
@@ -183,6 +187,11 @@
     .lowest_time {
         justify-content: center;
         margin-bottom: 20px;
+    }
+
+
+    .res_stc_01 {
+        max-width: 48%;
     }
 }
 
