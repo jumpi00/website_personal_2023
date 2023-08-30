@@ -315,6 +315,10 @@
 
 /*size 425px*/
 @media all and (max-width: 425px){
+    main div h3{
+        max-width: 65%;
+    }
+
     .box_contact_buttons {
         display: inline-grid;
         font-size: 1rem;
