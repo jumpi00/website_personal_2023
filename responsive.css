@@ -70,6 +70,10 @@
 
 /*size 768px*/
 @media all and (max-width: 768px){
+    .introduction {
+        padding: 25% 6% 5% 6%;;
+    }
+
     h5 {
         font-size: 0.8rem;
     }
@@ -138,8 +142,12 @@
 
 /*size 690px*/
 @media all and (max-width: 690px){
+    .introduction {
+        padding: 30% 6% 5% 6%;
+    }
+
     .box_contact_mail a {
-        font-size: 1.6rem;
+        font-size: 2.0rem;
     }
 
     .nv-smlscrn-n {
@@ -150,7 +158,6 @@
     .nv-smlscrn-y {
         display: block;
     }
-
 
     .hdr-txt-nv-123ltc {
         font-size: 1.1rem;
@@ -164,6 +171,9 @@
         padding: 22px 32px;
     }
 
+    .header_text-opn {
+        font-size: 2.6rem;
+    }
 
     .lowest {
         display: block;
@@ -178,6 +188,10 @@
 
 /*size 480px*/
 @media all and (max-width: 480px){
+    .introduction {
+        padding: 38% 6% 5% 6%;
+    }
+    
     main div h3 {
         font-size: 1.2rem;
     }
@@ -191,12 +205,12 @@
     }
 
     .box_contact_mail a {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-decoration-thickness: 0.1rem;
     }
 
     .box_contact_buttons {
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
 
     .social-list {
@@ -221,6 +235,19 @@
 
     .box_contact {
         margin: 30% auto;
+    }
+
+    #nav_fixed{
+        margin: 8% 6%;
+    }
+
+    .header_text_nv{
+        right: 6%;
+    }
+
+    .header_text-opn {
+        font-size: 2.2rem;
+        line-height: 5.4rem;
     }
 
     
@@ -308,6 +335,11 @@
         padding: 2.2rem 2.2rem;
     }
 
+    .header_text-opn {
+        font-size: 1.8rem;
+        line-height: 4.4rem;
+    }
+
     
     
     .wcst01 {
@@ -337,6 +369,19 @@
 
 /*size 375px*/
 @media all and (max-width: 375px){
+    main div h3 {
+    max-width: 70%;
+    }
+
+    .introduction{
+    padding: 45% 6% 5% 6%;
+    }
+
+    .box_contact_mail a {
+        font-size: 1.2rem;
+    }
+
+
     .back_fullAlt_h1 {
         font-size: 3rem;
     }
@@ -345,6 +390,11 @@
         font-size: 1.1rem;
         line-height: 1.5rem;
     }
+
+    .header_text-opn {
+        font-size: 1.6rem;
+        line-height: 4.0rem;
+    }    
 
 
     .cnct-mail-01 a{
@@ -360,6 +410,10 @@
 
 /*size 320px*/
 @media all and (max-width: 320px){
+    .header_logo{
+        display: none;
+    }
+
     h4 {
         font-size: 0.9rem;
     }
