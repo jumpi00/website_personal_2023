@@ -420,6 +420,10 @@
         line-height: 1.7rem;
     }
 
+    .pill_button-i-opn-m{
+        display: none;
+    }
+
 }
 
 /*size 320px*/
