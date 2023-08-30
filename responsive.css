@@ -141,6 +141,39 @@
     .box_contact_mail a {
         font-size: 1.6rem;
     }
+
+    .nv-smlscrn-n {
+        display: none;
+
+    }
+
+    .nv-smlscrn-y {
+        display: block;
+    }
+
+
+    .hdr-txt-nv-123ltc {
+        font-size: 1.1rem;
+    }
+
+    .header_text_nv {
+        padding: 22px 24px;
+    }
+
+    .header_text_nv02 {
+        padding: 22px 32px;
+    }
+
+
+    .lowest {
+        display: block;
+        text-align: center;
+    }
+
+    .lowest_time {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 }
 
 /*size 480px*/
@@ -172,12 +205,6 @@
 
     .lowest {
         font-size: 0.7rem;
-        display: block;
-        text-align: center;
-    }
-
-    .lowest_time {
-        justify-content: center;
     }
 
     .contact-bottom {
@@ -186,10 +213,6 @@
 
     .contact-top {
         padding-top: 2rem;
-    }
-
-    .lowest_time {
-        margin-bottom: 20px;
     }
 
     .spc-btn-02 {

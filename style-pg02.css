@@ -4,6 +4,8 @@
     --text: #191919;
     --white: #ffffff;
     --greyLight: #cdcdcd;
+    --mid-dark-back: #d5dadd;
+    --dark-back: #c7ced1;
   }
 
 html, main {

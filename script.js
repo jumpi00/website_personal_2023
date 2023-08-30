@@ -22,3 +22,11 @@ function currentTime() {
 }
 
 currentTime();
+
+$(".mn-opn").click(function(){
+  $(".i-opn").show(200);
+});
+
+$(".x").click(function(){
+  $(".i-opn").hide(200);
+});

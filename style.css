@@ -4,6 +4,8 @@
     --text: #191919;
     --white: #ffffff;
     --greyLight: #cdcdcd;
+    --mid-dark-back: #d5dadd;
+    --dark-back: #c7ced1;
   }
 
 body {
@@ -58,6 +60,8 @@ h5 {
 
 .header_logo {
     font-size: 1rem;
+    font-weight: 500;
+    color: var(--text);
     float: left;
     
     padding: 26px 24px;
@@ -285,7 +289,6 @@ h4 {
 .lowest_time {
     display: flex;
     justify-content: space-between;
-    color: red;
     margin-left: auto;
 }
 
@@ -338,6 +341,81 @@ footer{
     margin-top: 10rem;
 }
 
+
+.header_text_nv, .header_text_nv02 {
+    float: right;
+    position: fixed;
+    right: 2.4rem;
+
+    padding: 26px 24px;
+    border-radius: 40px;
+    background-color: rgba(242,244,245,.5);
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 18px var(--greyLight);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.header_text_nv02 {
+    padding: 26px 28px;
+    background-color: var(--mid-dark-back);
+ }
+
+.hdr-txt-nv-123ltc {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.2rem;
+ }
+
+.header_text-opn {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 20px;
+    text-align: center;
+    line-height: 6.6rem;
+
+    margin-top: 10rem;
+}
+
+.header_text-opn li a {
+    color: var(--text);
+    transition: 0.5s ease-in-out;
+}
+
+.i-opn {
+    background-color: var(--back);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.nv-smlscrn-y {
+    display: none;
+}
+
+.sctn-i-opn {
+    text-align: center;
+}
+
+.pill_button-i-opn-m {
+    padding: 1.2rem 1.4rem;
+}
+
+.ftr-i-opn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 /*Hover elements*/
 
 .pill_hover:hover{
@@ -368,6 +446,13 @@ footer{
 }
 
 .header_logo:hover
+{
+  border-radius: 4vh;
+  box-shadow: inset 3px 3px 5px var(--greyLight), inset -3px -3px 5px var(--white);
+  transition: all 0.4s ease;
+}
+
+.header_text_nv:hover
 {
   border-radius: 4vh;
   box-shadow: inset 3px 3px 5px var(--greyLight), inset -3px -3px 5px var(--white);
