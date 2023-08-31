@@ -14,15 +14,15 @@
         <div>
         <div class="cntct-form">
             <div class="cntct-form-x">x</div>
-            <div >
+            <div class="cntct-form-ctn">
                 <p class="cntct-form-title">
                     Titolo del form
                 </p>
-                <form name="contact" method="POST" netlify>
-                    <div style="box-sizing: inherit;"><input class="ipt01-cntform" type="text" name="name" placeholder="Your name" autocomplete="off" value=""></div>
-                    <input class="ipt01-cntform" class="h1K5_Q" type="text" name="role" placeholder="Your role" value="">
-                    <input class="ipt01-cntform" type="email" name="email" placeholder="Your email" autocomplete="off" value="">
-                    <textarea class="ipt02-cntform" name="message" placeholder="How may I help you?"></textarea>
+                <form name="contact" method="POST" action="POST" data-netlify="true">
+                    <div class="cntct-form-spxdwn"><input class="ipt01-cntform" type="text" name="name" placeholder="Your name" autocomplete="off" value=""></div>
+                    <div class="cntct-form-spxdwn"> <input class="ipt01-cntform" type="text" name="role" placeholder="Your role" value=""></div>
+                    <div class="cntct-form-spxdwn"> <input class="ipt01-cntform" type="email" name="email" placeholder="Your email" autocomplete="off" value=""></div>
+                    <div class="cntct-form-spxdwn"> <textarea class="ipt02-cntform" name="message" placeholder="How may I help you?"></textarea></div>
                     <button class="ipt03-cntform" type="submit">Submit</button>
                 </form>
 
@@ -38,8 +38,7 @@
 <style>
 
 .cntct-form{
-    width: 100%;
-    max-width: 95%;
+    max-width: 70%;
     height: 85%;
     padding-top: 30px;
     position: fixed;
@@ -55,10 +54,19 @@
     background-color: aqua;
 }
 
+.cntct-form-ctn {
+    max-width: 80%;
+    margin: auto;
+    padding: 3rem;
+}
+
 .cntct-form-title{
     font-size: 2rem;
 }
 
+.cntct-form-spxdwn {
+    margin-bottom: 10px;
+}
 .cntct-form-x {
     width: 50px;
     height: 50px;
